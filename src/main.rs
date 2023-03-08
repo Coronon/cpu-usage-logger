@@ -6,7 +6,7 @@ use std::time::Duration;
 use std::{collections::HashMap, thread};
 use sysinfo::{Pid, Process, ProcessExt, ProcessRefreshKind, System, SystemExt};
 
-/// Simple utility to log high CPU usage
+/// Simple utility to log high CPU usage, created by Rubin Raithel (@Coronon) https://rubinraithel.de
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {

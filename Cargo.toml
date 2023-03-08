@@ -1,5 +1,8 @@
 [package]
 name = "cpu-usage-logger"
+description = "CPU Usage Logger is a simple utility program that logs high CPU usage and tracks the CPU usage of processes on your system."
+authors = ["Rubin Raithel (@Coronon)"]
+homepage = "https://github.com/Coronon/cpu-usage-logger"
 version = "0.1.0"
 edition = "2021"
 
